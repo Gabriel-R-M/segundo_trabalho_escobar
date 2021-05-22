@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
       backgroundPosition: 'center',
     },
     paper: {
-      marginTop: 80,
+      marginTop: 100,
       marginLeft: 50,
       marginRight: 50,
       display: 'flex',
@@ -34,7 +34,6 @@ const useStyles = makeStyles((theme) => ({
   return (
     <Grid container component="main" style={{ height: '100vh' }} >
       <CssBaseline />
-      <Grid item xs={4} sm={4} md={7} className={classes.image} />
       <Grid item xs={8} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
           <Typography component="h1" variant="h5" color="primary">
@@ -65,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
             <Grid container>
               <Grid item xs>
                 <Button
-                type="submit"
+                type="button"
                 fullWidth
                 variant="contained"
                 color="primary"
@@ -90,6 +89,7 @@ const useStyles = makeStyles((theme) => ({
           </form>
         </div>
       </Grid>
+      <Grid item xs={4} sm={4} md={7} className={classes.image} />
     </Grid>
   );
 }

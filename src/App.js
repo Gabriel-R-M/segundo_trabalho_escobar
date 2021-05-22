@@ -10,13 +10,12 @@ const App = () => {
     const [ claro, setClaro ] = useState( true )
 
     const mudarTema = () => {
-      console.log("chegou")
         if (claro) 
             setTema( temaEscuro )
         else
             setTema( temaClaro )
 
-          setClaro( !claro )
+        setClaro( !claro )
     }
 
     return (

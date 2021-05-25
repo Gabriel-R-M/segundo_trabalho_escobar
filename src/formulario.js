@@ -1,6 +1,7 @@
 import { Paper, Typography,  Button, CssBaseline, TextField, Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
 import jacare from "./image/jacare.jpg";
+import './estilo.css';
 
 const useStyles = makeStyles((theme) => ({
     image: {
@@ -89,7 +90,7 @@ const useStyles = makeStyles((theme) => ({
           </form>
         </div>
       </Grid>
-      <Grid item xs={4} sm={4} md={7} className={classes.image} />
+      <Grid item xs={4} sm={4} md={7} id="foto" className="imagem" />
     </Grid>
   );
 }

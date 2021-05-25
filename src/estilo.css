@@ -1,0 +1,17 @@
+.imagem{
+    align-items: center;
+    display: flex;
+    background-image: url('./image/jacare.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.imagem2{
+    align-items: center;
+    display: flex;
+    background-image: url('./image/jacare2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

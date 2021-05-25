@@ -10,10 +10,17 @@ const App = () => {
     const [ claro, setClaro ] = useState( true )
 
     const mudarTema = () => {
-        if (claro) 
+        var element = document.getElementById("foto");
+        if (claro) {
             setTema( temaEscuro )
-        else
+            element.classList.remove("imagem");
+            element.classList.add("imagem2");
+        }
+        else{
             setTema( temaClaro )
+            element.classList.remove("imagem2");
+            element.classList.add("imagem");
+        }
 
         setClaro( !claro )
     }

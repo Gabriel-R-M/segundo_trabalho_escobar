@@ -1,15 +1,8 @@
 import { Paper, Typography,  Button, CssBaseline, TextField, Grid } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles';
-import jacare from "./image/jacare.jpg";
 import './estilo.css';
 
 const useStyles = makeStyles((theme) => ({
-    image: {
-      backgroundImage: 'url('+ jacare+')',
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-    },
     paper: {
       marginTop: 100,
       marginLeft: 50,
